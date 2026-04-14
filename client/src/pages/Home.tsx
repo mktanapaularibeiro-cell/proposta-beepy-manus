@@ -35,9 +35,11 @@ export default function Home() {
               Investimento
             </a>
           </nav>
-          <Button className="bg-black text-white hover:bg-yellow-400 hover:text-black transition">
-            Conversar
-          </Button>
+          <a href="https://wa.me/5583999398449" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-black text-white hover:bg-yellow-400 hover:text-black transition">
+              Conversar
+            </Button>
+          </a>
         </div>
       </header>
 

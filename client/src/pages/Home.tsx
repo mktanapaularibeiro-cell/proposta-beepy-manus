@@ -57,9 +57,11 @@ export default function Home() {
                 Assessoria completa de marketing online e offline. Estratégia, criação, execução e otimização em um único pacote irresistível.
               </p>
               <div className="flex gap-4 pt-4">
-                <Button className="bg-black text-white hover:bg-yellow-400 hover:text-black transition gap-2">
-                  Agende uma Conversa <ArrowRight className="w-4 h-4" />
-                </Button>
+                <a href="https://wa.me/5583999398449" target="_blank" rel="noopener noreferrer">
+                  <Button className="bg-black text-white hover:bg-yellow-400 hover:text-black transition gap-2">
+                    Agende uma Conversa <ArrowRight className="w-4 h-4" />
+                  </Button>
+                </a>
                 <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white transition">
                   Saiba Mais
                 </Button>
@@ -327,12 +329,16 @@ export default function Home() {
             Entre em contato conosco hoje mesmo e descubra como a Beepy pode levar sua marca para o próximo nível.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-            <Button className="bg-black text-white hover:bg-yellow-400 hover:text-black transition gap-2">
-              Agende uma Reunião <ArrowRight className="w-4 h-4" />
-            </Button>
-            <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white transition">
-              Fale Conosco via WhatsApp
-            </Button>
+            <a href="https://wa.me/5583999398449" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-black text-white hover:bg-yellow-400 hover:text-black transition gap-2">
+                Agende uma Reunião <ArrowRight className="w-4 h-4" />
+              </Button>
+            </a>
+            <a href="mailto:mkt.anapaularibeiro@gmail.com">
+              <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white transition">
+                Enviar Email
+              </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -365,7 +371,7 @@ export default function Home() {
               <ul className="space-y-2 text-gray-400 text-sm">
                 <li><a href="https://www.agenciabeepy.com.br" className="hover:text-yellow-400 transition">www.agenciabeepy.com.br</a></li>
                 <li><a href="https://instagram.com/agenciabeepy" className="hover:text-yellow-400 transition">@agenciabeepy</a></li>
-                <li><a href="https://wa.me/5583988125887" className="hover:text-yellow-400 transition">WhatsApp</a></li>
+                <li><a href="https://wa.me/5583999398449" className="hover:text-yellow-400 transition">WhatsApp</a></li>
               </ul>
             </div>
             <div className="space-y-4">
